@@ -17,7 +17,6 @@ Delete: Remove student records by ID.<br>
 Spring Boot Framework: Utilizes Spring Boot for rapid development and easy configuration.<br>
 MySQL Integration: Connects to a MySQL database for persistent storage.<br>
 RESTful API: Provides clean and standardized API endpoints.<br><br>
-Getting Started<br> Follow these steps to get a local copy of the project running:<br><br>
 
 **API Endpoints**<br>
 POST /api/students: Create a new student record.<br>
@@ -36,19 +35,16 @@ Content-Type: application/json
   "studentEmail": "john.doe@example.com",
   "studentAddress": "123 Main St"
 }
-<br>
+<br><br>
 **Get All Students**<br>
 GET /api/students
-<br>
+<br><br>
 **Get Student by ID**<br>
 GET /api/students/1
-<br>
+<br><br>
 **Update Student**<br>
 PUT /api/students/1 Content-Type: application/json
 { "studentName": "Jane Doe", "studentEmail": "jane.doe@example.com", "studentAddress": "456 Elm St" }
-
 <br><br>
-
-
 **Delete Student**<br>
 DELETE /api/students/1
