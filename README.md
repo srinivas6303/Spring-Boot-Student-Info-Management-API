@@ -29,7 +29,6 @@ DELETE /api/students/{id}: Delete a student record by ID.<br><br>
 **Create a Student**<br>
 POST /api/students
 Content-Type: application/json
-
 {
   "studentName": "John Doe",
   "studentEmail": "john.doe@example.com",
