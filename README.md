@@ -27,8 +27,8 @@ DELETE /api/students/{id}: Delete a student record by ID.<br><br>
 
 **Example Requests**<br>
 **Create a Student**<br>
-POST /api/students
-Content-Type: application/json
+POST /api/students<br>
+Content-Type: application/json<br>
 {
   "studentName": "John Doe",
   "studentEmail": "john.doe@example.com",
@@ -42,7 +42,8 @@ GET /api/students
 GET /api/students/1
 <br><br>
 **Update Student**<br>
-PUT /api/students/1 Content-Type: application/json
+PUT /api/students/1 <br>
+Content-Type: application/json<br>
 { "studentName": "Jane Doe", "studentEmail": "jane.doe@example.com", "studentAddress": "456 Elm St" }
 <br><br>
 **Delete Student**<br>
