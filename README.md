@@ -1,4 +1,4 @@
-Spring Boot Student Info Management API
+##Spring Boot Student Info Management API
 Overview<br> The Spring Boot Student Info Management API is a RESTful API designed to manage student data efficiently.
 This project leverages Spring Boot and MySQL to provide a robust backend for CRUD operations on student records.<br><br>
 
@@ -8,7 +8,7 @@ This project leverages Spring Boot and MySQL to provide a robust backend for CRU
 - **Repository**: Interfaces with the database.<br>
 - **Application**: Main entry point of the Spring Boot application.<br>
 
-Features<br>
+**Features**<br>
 Create: Add new student records.<br>
 Read: Retrieve details of students or list all students.<br>
 Update: Modify existing student records.<br>
@@ -20,15 +20,15 @@ Getting Started<br> Follow these steps to get a local copy of the project runnin
 
 
 
-API Endpoints<br>
+**API Endpoints**<br>
 POST /api/students: Create a new student record.<br>
 GET /api/students: Retrieve a list of all students.<br>
 GET /api/students/{id}: Retrieve a specific student by ID.<br>
 PUT /api/students/{id}: Update an existing student record by ID.<br>
 DELETE /api/students/{id}: Delete a student record by ID.<br><br>
 
-Example Requests<br>
-Create a Student<br>
+**Example Requests**<br>
+**Create a Student**<br>
 POST /api/students
 Content-Type: application/json
 
@@ -37,7 +37,7 @@ Content-Type: application/json
   "studentEmail": "john.doe@example.com",
   "studentAddress": "123 Main St"
 }
-```<br><br>
+<br><br>
 
 **Get All Students**<br>
 GET /api/students
