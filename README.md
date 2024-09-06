@@ -9,6 +9,15 @@ This project leverages Spring Boot and MySQL to provide a robust backend for CRU
 - Repository: Interfaces with the database.<br>
 - Application: Main entry point of the Spring Boot application.<br>
 
+**Database Setup**<br>
+Database Name: springboot_rest<br>
+Table Name: Student<br>
+*Columns:*
+id (INT): Primary key, unique identifier for each student.<br>
+student_name (VARCHAR): Name of the student.<br>
+student_email (VARCHAR): Email of the student.<br>
+student_address (VARCHAR): Address of the student.<br>
+
 **Features**<br>
 Create: Add new student records.<br>
 Read: Retrieve details of students or list all students.<br>
@@ -47,4 +56,17 @@ Content-Type: application/json<br>
 { "studentName": "Jane Doe", "studentEmail": "jane.doe@example.com", "studentAddress": "456 Elm St" }
 <br><br>
 **Delete Student**<br>
-DELETE /api/students/1
+DELETE /api/students/1 <br><br>
+
+**Tools and Technologies Used**<br>
+Java: The primary programming language used.<br>
+Maven: For managing project dependencies and building the project.<br>
+JDBC: For database connectivity.<br>
+MySQL: Database used to store student records.<br>
+Apache Tomcat: Server used to deploy the REST API.<br>
+Postman: For testing the API endpoints.<br>
+Spring Initializr Dependencies:<br>
+-Spring Web: Build web applications, including RESTful services, using Spring MVC. Uses Apache Tomcat as the default embedded container.<br>
+-Spring Boot DevTools: Provides fast application restarts, LiveReload, and configurations for an enhanced development experience.<br>
+-Spring Data JPA: Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.<br>
+-MySQL Driver: JDBC driver for MySQL.<br>
